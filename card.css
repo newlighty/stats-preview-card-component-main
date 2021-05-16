@@ -1,0 +1,129 @@
+*/ *::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+   }
+/* .attribution { font-size: 11px; text-align: center; }
+   .attribution a { color: hsl(228, 45%, 44%); } */
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+  }
+
+.card{
+    display: flex;
+}
+
+.box{
+ width: 24rem;
+ height: 20rem;
+ background:hsl(244, 38%, 16%);
+ border-radius: 0.5rem 0 0 0.5rem;
+ 
+}
+   
+.background{
+    width: 24rem;
+    height: 20rem;
+    background: url(/images/image-header-desktop.jpg);
+    border-radius: 0 .5rem 0.5rem 0;
+  } 
+
+.transbox {
+   width: 24rem;
+   height: 20rem;
+   background-color:hsla(277, 64%, 61%, 0.5);  
+   opacity: 0.6;
+   border-radius:  0 0.5rem 0.5rem 0;
+    }
+ 
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top: 15%;
+    padding: 0 3rem 0 3rem;
+    margin-bottom: 0;
+    margin: 60px 0 30px 0;
+   }
+
+span{
+    color: blueviolet;
+}
+
+article{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16PX;
+    color: rgba(255, 255, 255, 0.5);
+    width: 330px;
+    padding-left: 3rem;
+}
+
+h4{
+    margin-block-start: 4rem;
+    margin-block-end: 0;
+    padding-left: 3rem;
+}
+
+.porjects{
+    display: table;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 90%;
+   
+}
+
+.row{
+   display: table-cell;
+   padding: auto;
+   margin: 0;
+   
+   }
+   
+h6{
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 3rem;
+}
+
+/* @media (min-width: 375px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+           }
+
+} */
+@media only screen and (max-width:600px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+           }
+  }
+
+  /* @media only screen and (min-width:375px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+           }
+  } */
